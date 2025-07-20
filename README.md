@@ -72,7 +72,6 @@ This will start a local web server, and you can access the app in your browser a
 ├── utils.py            # Utility functions (e.g., metrics)
 ├── requirements.txt    # Project dependencies
 ├── model/              # Saved model and tokenizer
-├── data/               # Store processed datasets or cache
 └── README.md           # This file
 ```
 
