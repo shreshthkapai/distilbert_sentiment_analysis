@@ -4,11 +4,6 @@ This project provides a complete pipeline for fine-tuning a DistilBERT model for
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shreshth2002/distilbert-sentiment)
 
-## Live Demo
-
-You can try out a live demo of the sentiment analysis app on Hugging Face Spaces:
-[https://huggingface.co/spaces/Shreshth2002/distilbert-sentiment](https://huggingface.co/spaces/Shreshth2002/distilbert-sentiment)
-
 ## Features
 
 *   **Fine-tuned DistilBERT:** Utilizes a pre-trained DistilBERT model, fine-tuned on the IMDB dataset for high accuracy.
@@ -77,6 +72,7 @@ This will start a local web server, and you can access the app in your browser a
 ├── utils.py            # Utility functions (e.g., metrics)
 ├── requirements.txt    # Project dependencies
 ├── model/              # Saved model and tokenizer
+├── data/               # Store processed datasets or cache
 └── README.md           # This file
 ```
 
